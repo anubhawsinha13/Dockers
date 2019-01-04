@@ -1,10 +1,16 @@
 ##Docker With jenkins
 
+https://github.com/jenkinsci/docker/blob/master/README.md
+
 #pull docker image from docker hub
 https://hub.docker.com/r/jenkins/jenkins/
 
 #Run the docker image with port forwarded_port
-docker run -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
+
+##docker run -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
+Trace the logs to copy the password needed to first time setup jenkins
+
+http://localhost:8080/
 
 # Create a new project
 
